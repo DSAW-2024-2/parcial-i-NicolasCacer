@@ -5,27 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
   
-  <title></title>
-
-
+  <title>Invitation Page</title>
+  <script src ="https://cdn.tailwindcss.com"></script>
+  <style>
+    * {
+      font-family: "Manrope", sans-serif;
+    }
+  </style>
 </head>
-<body>
-
-  Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home
-
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
-
-  Michelle Appleton
-  28 Jun 2020
-
-  Share
-  
-  <div class="attribution">
-    Coded by <a href="#">Your Name Here</a>.
+<body class="w-full h-screen flex justify-center items-center m-0 p-0" style="background-color: hsl(210, 46%, 95%)">
+  <div id ="container" class="bg-red-500 w-[850px] h-[300px] flex justify-center items-center rounded-lg shadow-lg">
+    <img class="rounded-l h-[100%] " src="images/drawers.jpg" alt="Drawer image">
+    <div class="card-text bg-white w-full h-full rounded-r-lg p-8 flex flex-col justify-evenly items-center">
+      <p class="title font-bold">Shift the overall look and feel by adding these wonderful touches to furniture in your home</p>
+      <p class="card-body-text">Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.</p>
+      <div class="flex justify-start gap-3">
+        <img class = "rounded-[50%] h-[50px]" src="images/avatar-michelle.jpg" alt="">
+          <p class="w-[200px] self-center">Michelle Appleton <br>28 Jun 2020</p>
+          <div class="flex rounded-[50%] w-[40px] h-[40px] ml-[70px] self-center p-3" style="background-color: hsl(210, 46%, 95%);">
+            <svg class="" xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path fill="#6E8098" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
+          </div>
+      </div>
+    </div>
   </div>
 </body>
 </html>
